@@ -1,6 +1,6 @@
 # ai-openai — documentation
 
-  <img src=".github/assets/togo-mark.svg" alt="togo" height="64" />
+OpenAI LLM driver for togo ai
 
 ## Overview
 
@@ -17,12 +17,11 @@ Set `AI_DRIVER=openai`.
 
 ## Configuration
 
-Environment variables read by this plugin (extracted from the source):
+Environment variables read by this plugin (extracted from the source — see the gateway/provider docs for each value):
 
-| Env var | Notes |
-|---|---|
-| `G` | _see provider docs_ |
-| `OPENAI_BASE_URL` | _see provider docs_ |
+| Env var |
+|---|
+| `OPENAI_BASE_URL"` |
 
 ## Usage
 
@@ -36,4 +35,4 @@ resp, err := provider.Chat(ctx, []ai.Message{{Role: "user", Content: "Hello"}}, 
 
 - Marketplace: https://to-go.dev/marketplace
 - Source: https://github.com/togo-framework/ai-openai
-- README: ../README.md
+- Full README: ../README.md
