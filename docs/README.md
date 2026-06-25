@@ -21,7 +21,7 @@ Environment variables read by this plugin (extracted from the source — see the
 
 | Env var |
 |---|
-| `OPENAI_BASE_URL"` |
+| `OPENAI_BASE_URL` |
 
 ## Usage
 
